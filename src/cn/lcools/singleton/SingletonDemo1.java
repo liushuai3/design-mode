@@ -11,7 +11,7 @@ public class SingletonDemo1 {
     public static SingletonDemo1 getInstance(){
         return instance;
     }
-    public static void operation(){
+    public void operation(){
         System.out.println("This is a Singleton "+ getInstance().getClass().getName());
     }
 }

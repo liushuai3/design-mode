@@ -7,7 +7,7 @@ package cn.lcools.singleton;
  */
 public enum SingletonDemo4 {
     SINGLETON_DEMO_4;
-    public static void operation(){
+    public void operation(){
         System.out.println("This is a Singleton "+ SINGLETON_DEMO_4.getClass().getName());
     }
 }
