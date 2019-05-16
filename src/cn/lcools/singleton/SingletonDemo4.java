@@ -2,7 +2,7 @@ package cn.lcools.singleton;
 
 /**
  * Created by liushuai on 2019/5/15.
- * 单例模式，枚举实现
+ * 单例模式，枚举式实现
  *
  */
 public enum SingletonDemo4 {

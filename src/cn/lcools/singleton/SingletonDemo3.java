@@ -2,7 +2,7 @@ package cn.lcools.singleton;
 
 /**
  * Created by liushuai on 2019/5/15.
- * 单例模式，静态内部类实现
+ * 单例模式，静态内部类式实现
  *
  */
 public class SingletonDemo3 {

@@ -21,6 +21,9 @@ public class Client {
         SingletonDemo4 singletonDemo44 = SingletonDemo4.SINGLETON_DEMO_4;
         System.out.println(singletonDemo4==singletonDemo44);
         singletonDemo4.operation();
-
+        SingletonDemo5 singletonDemo5 = SingletonDemo5.getInstance();
+        SingletonDemo5 singletonDemo55 = SingletonDemo5.getInstance();
+        System.out.println(singletonDemo5==singletonDemo55);
+        singletonDemo5.operation();
     }
 }
