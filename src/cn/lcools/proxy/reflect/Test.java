@@ -17,7 +17,7 @@ public class Test {
         Class classt = null;
         try{
             classt = Class.forName(classNmae);
-            Method method =  classt.getDeclaredMethod(methodName,Map.class);
+            Method method =  classt.getMethod(methodName,Map.class);
             Map retmap = (Map)method.invoke(classt.newInstance(),map);
             System.out.println(retmap);
         }catch (Exception e){
